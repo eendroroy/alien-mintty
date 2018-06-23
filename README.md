@@ -12,7 +12,7 @@
 
 This is a port of [alien-minimal](https://github.com/eendroroy/alien-minimal) theme for windows (on cygwin).
 
-**For details see the original [readme](https://github.com/eendroroy/alien-minimal/README.md)
+**For details see the original [readme](https://github.com/eendroroy/alien-minimal/README.md)**
 
 ## Installation
 
@@ -43,7 +43,7 @@ git submodule update --init --recursive
 Add the following line to your `~/.zshrc`
 
 ```bash
-source ~/alien-win/alien-mintty.zsh
+source ~/alien-mintty/alien-mintty.zsh
 ```
 
 ## Libraries Used
