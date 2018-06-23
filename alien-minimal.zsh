@@ -5,7 +5,6 @@ THEME_ROOT=${0:A:h}
 source "${THEME_ROOT}/modules/init.zsh"
 
 source "${THEME_ROOT}/libs/promptlib/activate"
-source "${THEME_ROOT}/libs/zsh-async/async.zsh"
 source "${THEME_ROOT}/libs/zsh-256color/zsh-256color.plugin.zsh"
 
 source "${THEME_ROOT}/modules/theme.zsh"
@@ -39,6 +38,6 @@ function precmd(){
     PROMPT='`am_ssh_st`$__time`am_venv` `am_prompt_general_short_dir` '
   fi
   RPROMPT=''
-  am_async_prompt
+  am_prompt_complete
   am_timer_start
 }

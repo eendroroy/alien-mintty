@@ -67,6 +67,5 @@ function am_prompt_complete(){
   fi
   RPROMPT='`version_prompt` `am_r_prompt`'
   zle && zle reset-prompt
-  async_stop_worker prompt -n
 }
 
